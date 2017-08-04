@@ -1,0 +1,566 @@
+[
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_icon.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_register_icon_empty.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_register_icon_empty.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_activate_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_activate_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_register_icon_password.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_register_icon_password.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_register_icon_forbid.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_register_icon_forbid.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_bg.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_bg.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_facebook.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\logo_facebook.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_2_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_2_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_back_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_back_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_factory.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_factory.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_left_add.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\drawer_left_add.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_create_btn_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_create_btn_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_button_yellow_pressed.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_button_yellow_pressed.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_left_account.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\drawer_left_account.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_edit_round_bg.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_edit_round_bg.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_down_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_down_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_tree_icon_fold_off.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_tree_icon_fold_off.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_activity_bg.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_activity_bg.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_activity_icon_background_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_activity_icon_background_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_status_cloud_on.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_status_cloud_on.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_bg_selected.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_bg_selected.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_welcome_main_src.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_welcome_main_src.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_register_icon_account.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_register_icon_account.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_sinaweibo.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\logo_sinaweibo.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_num_minus.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_num_minus.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_checked_blue_on.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_checked_blue_on.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_welcome_pager_src_2.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_welcome_pager_src_2.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_activity_icon_background_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_activity_icon_background_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_all.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_all.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_remove_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_remove_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_drawer.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_status_cloud_off.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_status_cloud_off.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_light_brightness_icon.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_light_brightness_icon.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_left_settings.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\drawer_left_settings.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_login_icon_password.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_login_icon_password.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_library.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_library.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_office.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_office.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_filter_icon_plugs.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_filter_icon_plugs.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_light_cover.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_light_cover.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_home.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_home.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_mesh.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_mesh.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_button_yellow_normal.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_button_yellow_normal.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_3_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_3_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_flammable_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_flammable_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_wc.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_wc.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_rssi_3.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_rssi_3.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_1_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_1_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_welcome_pager_src_0.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_welcome_pager_src_0.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_twitter.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\logo_twitter.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_login_icon_email.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_login_icon_email.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_all_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_all_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\round_edit_bg.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\round_edit_bg.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_filter_icon_all.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_filter_icon_all.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_shop.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_shop.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_wechat.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\logo_wechat.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_status_local.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_status_local.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_plugs_aperture.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_plugs_aperture.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_humiture_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_humiture_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_kitchen.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_kitchen.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_signal_2.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_signal_2.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_plug_small_off.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_plug_small_off.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_welcome_main_bg.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_welcome_main_bg.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_plug_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_plug_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_flammable_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_flammable_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_menu_icon_color.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_menu_icon_color.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_soundbox_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_soundbox_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_plugs_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_plugs_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_menu_icon_search.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_menu_icon_search.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_status_cloud.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_status_cloud.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_soundbox_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_soundbox_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_status_upgrading.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_status_upgrading.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_login_checkbox_normal.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_login_checkbox_normal.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_move_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_move_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_img.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_img.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_signal_3.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_signal_3.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_num_add.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_num_add.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_tree_icon_fold_on.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_tree_icon_fold_on.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_filter_icon_plug.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_filter_icon_plug.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_4_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_4_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_humiture_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_humiture_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_move_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_move_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_activate_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_activate_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_swap.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_swap.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_shadow.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_rssi_1.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_rssi_1.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_plug_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_plug_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_plug_small_on.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_plug_small_on.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_plug_off.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_plug_off.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_edit_underline_bg.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_edit_underline_bg.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_all_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_all_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_remove_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_remove_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_back_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_back_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_voltage_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_voltage_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_left_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_left_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_checked_blue_off.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_checked_blue_off.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_upgrade_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_upgrade_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_filter_icon_light.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_filter_icon_light.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_login_head.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_login_head.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_register_icon_email.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_register_icon_email.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\unknown_cover.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\unknown_cover.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_button_blue_pressed.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_button_blue_pressed.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_voltage_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_voltage_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_login_checkbox_checked.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_login_checkbox_checked.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_light_colorpicker_icon.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_light_colorpicker_icon.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_signal_4.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_signal_4.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_cover.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_cover.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_signal_1.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_signal_1.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_signal_0.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_signal_0.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_up_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_up_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_welcome_pager_src_1.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_welcome_pager_src_1.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_filter_icon_humiture.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_filter_icon_humiture.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_light_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_light_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_add.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_add.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\logo_qq.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\logo_qq.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_create_btn_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_create_btn_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_local.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_local.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_plug_on.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_plug_on.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_zoo.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_zoo.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_scene_add_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_scene_add_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_menu_icon_share.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_menu_icon_share.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_device_status_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_device_status_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_add.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_add.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_espbutton_key_right_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_espbutton_key_right_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_menu_moreoverflow.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_menu_moreoverflow.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_light_offline.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_light_offline.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_icon_cloud.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_icon_cloud.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_filter_icon_soundbox.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_filter_icon_soundbox.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_delete_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_delete_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_help_hint.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_help_hint.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_left_login.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\drawer_left_login.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_scene_add_normal.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_scene_add_normal.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_menu_icon_add.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_menu_icon_add.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_delete_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_delete_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\esp_button_blue_normal.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\esp_button_blue_normal.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\drawer_left_logout.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\drawer_left_logout.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_plugs_online.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_plugs_online.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bottom_upgrade_pressed.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\bottom_upgrade_pressed.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_school.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_school.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\device_rssi_2.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\device_rssi_2.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\group_type_common.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xhdpi\\group_type_common.png"
+    }
+]

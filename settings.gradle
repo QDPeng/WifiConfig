@@ -1,0 +1,1 @@
+include ':app',':EsptouchForAndroid',':IOT-Espressif-Android',':smartconfig'

@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="esp_device_plug_timer_action_values">
+        <item>off_switch</item>
+        <item>on_switch</item>
+        <item>on_off_switch</item>
+    </string-array>
+    <string-array name="esp_device_plug_timer_actions">
+        <item>Turn off</item>
+        <item>Turn on</item>
+        <item>On off</item>
+    </string-array>
+    <string-array name="esp_device_plugs_timer_action_values">
+        <item>off_plug_</item>
+        <item>on_plug_</item>
+        <item>on_off_plug_</item>
+    </string-array>
+    <string-array name="esp_device_plugs_timer_actions">
+        <item>Turn off</item>
+        <item>Turn on</item>
+        <item>On off</item>
+    </string-array>
+    <string-array name="esp_device_timer_oprate_options">
+        <item>Delete</item>
+    </string-array>
+    <string-array name="esp_device_timer_period_unit_values">
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>day</item>
+    </string-array>
+    <string-array name="esp_device_timer_period_units">
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>day</item>
+    </string-array>
+    <string-array name="esp_device_timer_type">
+        <item>Fixed time</item>
+        <item>Loop period</item>
+        <item>Loop in week</item>
+    </string-array>
+    <string-array name="esp_espbutton_actions">
+        <item>Reset function</item>
+        <item>Set color</item>
+        <item>Turn on/off</item>
+        <item>Set timer</item>
+        <item>Set brightness</item>
+    </string-array>
+    <integer-array name="esp_light_colors">
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffffff00</item>
+        <item>0xff00ff00</item>
+        <item>0xff00ffff</item>
+        <item>0xff0000ff</item>
+        <item>0xffff00ff</item>
+    </integer-array>
+    <string-array name="esp_main_device_sort">
+        <item>Device name</item>
+        <item>Activated time</item>
+    </string-array>
+    <string-array name="esp_settings_auto_config_device_entries">
+        <item>Never</item>
+        <item>-20 dbm</item>
+        <item>-30 dbm</item>
+        <item>-40 dbm</item>
+        <item>-50 dbm</item>
+        <item>-60 dbm</item>
+    </string-array>
+    <string-array name="esp_settings_auto_config_device_values">
+        <item>0</item>
+        <item>-20</item>
+        <item>-30</item>
+        <item>-40</item>
+        <item>-50</item>
+        <item>-60</item>
+    </string-array>
+    <string-array name="esp_settings_device_auto_refresh_entries">
+        <item>Never</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="esp_settings_device_auto_refresh_values">
+        <item>0</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
+    <integer-array name="esp_touch_taskResultCount">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="esp_trigger_dimensions">
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+    <color name="esp_actionbar_color">#ff03a9f4</color>
+    <color name="esp_color_view_default">#ff7d8786</color>
+    <color name="esp_color_view_ring1">#ff5b5a60</color>
+    <color name="esp_color_view_ring2">#ff7d8786</color>
+    <color name="esp_device_offline">#ff999999</color>
+    <color name="esp_device_online">@color/esp_actionbar_color</color>
+    <color name="esp_drag_view_background">#80ffffff</color>
+    <color name="esp_light_activity_background">#ff646776</color>
+    <color name="esp_main_devices_background">#fff3f3f3</color>
+    <color name="esp_main_drawer_background">#fff0f0f2</color>
+    <color name="esp_main_drawer_right_item_checked">#ff738ffe</color>
+    <color name="esp_main_groups_background">#fff3f3f3</color>
+    <color name="esp_main_search_background">#fff3f3f3</color>
+    <color name="esp_preference_category_title">#ee36bfdc</color>
+    <color name="esp_qrcode_possible_result_points">#c0ffff00</color>
+    <color name="esp_qrcode_result_view">#b0000000</color>
+    <color name="esp_qrcode_viewfinder_frame">#ff000000</color>
+    <color name="esp_qrcode_viewfinder_laser">#ffff0000</color>
+    <color name="esp_qrcode_viewfinder_mask">#60000000</color>
+    <color name="esp_scene_background_intersects">#70000000</color>
+    <color name="esp_scene_background_selected">#40000000</color>
+    <color name="esp_scene_fragment_background">#f9ffffff</color>
+    <color name="esp_text_hint_color">#dddddd</color>
+    <declare-styleable name="ColorView"><attr format="integer" name="shape">
+            <enum name="circle" value="-1"/>
+            <enum name="rectangle" value="-2"/>
+        </attr><attr format="reference|color" name="color"/><attr format="boolean" name="drawShadow"/><attr format="reference|color" name="shadowColor1"/><attr format="reference|color" name="shadowColor2"/></declare-styleable>
+    <declare-styleable name="EspPreference"><attr format="reference|color" name="titleColor"/></declare-styleable>
+    <declare-styleable name="HorizontalListView"><attr format="dimension" name="dividerWidth"/><attr name="android:divider"/><attr name="android:requiresFadingEdge"/><attr name="android:fadingEdgeLength"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="chart_title_margin">20dip</dimen>
+    <dimen name="esp_activity_title_min_height">50dip</dimen>
+    <dimen name="esp_activity_ui_progress_padding">5dip</dimen>
+    <dimen name="esp_bottom_bar_height">65dip</dimen>
+    <dimen name="esp_bottom_item_height">65dip</dimen>
+    <dimen name="esp_bottom_item_padding">3dip</dimen>
+    <dimen name="esp_bottom_item_width">68dip</dimen>
+    <dimen name="esp_light_arc_view_padding">5dip</dimen>
+    <dimen name="esp_light_arc_view_width">210dip</dimen>
+    <dimen name="esp_light_colors_views_margin">15dip</dimen>
+    <dimen name="esp_light_colors_views_width">90dip</dimen>
+    <dimen name="esp_light_frgb_edit_width">65dip</dimen>
+    <dimen name="esp_main_drawer_width">240dp</dimen>
+    <dimen name="esp_treeview_icon_base_padding">15dip</dimen>
+    <dimen name="esp_treeview_icon_vertical_padding">10dip</dimen>
+    <dimen name="esp_treeview_text_size">20sp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="qr_image_height">200dip</dimen>
+    <dimen name="qr_image_width">200dip</dimen>
+    <plurals name="esp_esptouch_device_found">
+	    <item quantity="one">%d device found</item>
+	    <item quantity="many">%d devices found</item>
+	</plurals>
+    <plurals name="esp_esptouch_device_registered">
+	    <item quantity="one">%d device registered</item>
+	    <item quantity="many">%d devices registered</item>
+	</plurals>
+    <string name="app_name">IOT Espressif</string>
+    <string name="app_upload">Share App (With File)</string>
+    <string name="app_upload_extinfo">Share App (With Script)</string>
+    <string name="baidutieba_client_inavailable">Tieba client not exists or the version is too low</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="buy_failed">Buy Failed</string>
+    <string name="buy_success">Buy Success</string>
+    <string name="cancel">Cancel</string>
+    <string name="customer_douban">Search for users</string>
+    <string name="customer_facebook">Get notification list</string>
+    <string name="customer_kaixin">People You May Know</string>
+    <string name="customer_nemb">Get Recommended Topics</string>
+    <string name="customer_qzone">Publish to QZone</string>
+    <string name="customer_renren">Upload photos to the user\'s photo albums</string>
+    <string name="customer_sina">Get weibo home list</string>
+    <string name="customer_sohu">Get friends</string>
+    <string name="customer_suishenkan">Get the Sohu Kan bookmark list</string>
+    <string name="customer_tencent">Get followers</string>
+    <string name="customer_tumblr">Get Post list of Tumblr users</string>
+    <string name="customer_twitter">Get home list</string>
+    <string name="customer_youdao">Get notebook list</string>
+    <string name="demo_get_access_token">Get AccessToken</string>
+    <string name="demo_get_my_info">Get Authorized User Info</string>
+    <string name="demo_get_other_info">Get other user info</string>
+    <string name="demo_share_all">Share all (Silent Share)</string>
+    <string name="demo_share_all_gui">Share all (Popup Edit Page)</string>
+    <string name="douban">Douban</string>
+    <string name="dropbox">Dropbox</string>
+    <string name="email">Email</string>
+    <string name="emoji_upload">Share Emoticon (Local Image)</string>
+    <string name="emoji_upload_bm">Share Emoticon (Bitmap Object)</string>
+    <string name="emoji_upload_url">Share Emoticon (Internet Image)</string>
+    <string name="esp_activity_bottom_item_more_overflow">More</string>
+    <string name="esp_browser_configure_connect_failed">Connect device failed</string>
+    <string name="esp_browser_configure_titile">Device Configure</string>
+    <string name="esp_browser_confiugre_connecting">Connecting…</string>
+    <string name="esp_browser_confiugre_menu_connect">Connect device and configure</string>
+    <string name="esp_configure_activate">Make device connect to cloud</string>
+    <string name="esp_configure_add">Add devices</string>
+    <string name="esp_configure_configuring">Configuring…</string>
+    <string name="esp_configure_direct_connect">Connect device</string>
+    <string name="esp_configure_direct_connecting">Connecting…</string>
+    <string name="esp_configure_direct_result_failed">Connect failed</string>
+    <string name="esp_configure_direct_result_not_found">The device can\'t use now</string>
+    <string name="esp_configure_direct_result_not_support">The device don\'t support local usage</string>
+    <string name="esp_configure_direct_result_suc">Connect successfully</string>
+    <string name="esp_configure_multiple_devices">Multiple devices</string>
+    <string name="esp_configure_result_failed">Configuration failed</string>
+    <string name="esp_configure_result_success">Configuration completed</string>
+    <string name="esp_configure_start">Start configure</string>
+    <string name="esp_configure_title">Device Configure</string>
+    <string name="esp_configure_wifi_hint">Please open Wi-Fi first</string>
+    <string name="esp_configure_wifi_password_hint">Input Wi-Fi password</string>
+    <string name="esp_configure_wifi_select_hint">Please select Wi-Fi</string>
+    <string name="esp_configure_wifi_show_password">Show password</string>
+    <string name="esp_device_chartview_menu_select_date">Select date</string>
+    <string name="esp_device_control_all_mesh_light">Control all mesh lightes</string>
+    <string name="esp_device_control_all_mesh_plug">Control all mesh plugs</string>
+    <string name="esp_device_control_all_mesh_remote">Control all mesh remotes</string>
+    <string name="esp_device_data_network_not_found_message">Please check the status of your network</string>
+    <string name="esp_device_dialog_upgrade_apk_message">You need upgrade apk to control the device</string>
+    <string name="esp_device_dialog_upgrade_device_local">Upgrade online</string>
+    <string name="esp_device_dialog_upgrade_device_message">The device need upgrade to use</string>
+    <string name="esp_device_dialog_upgrade_device_online">Upgrade cloud</string>
+    <string name="esp_device_dialog_upgrading_local_message">The device is upgrading local</string>
+    <string name="esp_device_dialog_upgrading_online_message">The device is upgrading cloud</string>
+    <string name="esp_device_flammable">Flammable</string>
+    <string name="esp_device_humiture_humidity">Humidity</string>
+    <string name="esp_device_humiture_temperature">Temperature</string>
+    <string name="esp_device_light_blue">Blue</string>
+    <string name="esp_device_light_brightness">Brightness</string>
+    <string name="esp_device_light_color">Color</string>
+    <string name="esp_device_light_confirm">Confirm</string>
+    <string name="esp_device_light_continuous_control_forbidden">This light don\'t support to continuous control</string>
+    <string name="esp_device_light_cwhite">Cold White</string>
+    <string name="esp_device_light_disconnect_msg">Device is disconnected</string>
+    <string name="esp_device_light_espnow_low_battery">Low battery Espnow</string>
+    <string name="esp_device_light_freq">Frequency</string>
+    <string name="esp_device_light_green">Green</string>
+    <string name="esp_device_light_menu_espbutton_settings">EspButton Settings</string>
+    <string name="esp_device_light_off">Off</string>
+    <string name="esp_device_light_on">On</string>
+    <string name="esp_device_light_red">Red</string>
+    <string name="esp_device_light_white">White</string>
+    <string name="esp_device_light_wwhite">Warm White</string>
+    <string name="esp_device_menu_change_password">Change password</string>
+    <string name="esp_device_menu_espbutton_configure">Pair EspButton</string>
+    <string name="esp_device_menu_share">Share</string>
+    <string name="esp_device_menu_timer">Timer</string>
+    <string name="esp_device_menu_trigger">Trigger settings</string>
+    <string name="esp_device_menu_upgrade_local">Upgrade local</string>
+    <string name="esp_device_menu_upgrade_online">Upgrade cloud</string>
+    <string name="esp_device_mesh_children_title">Mesh network</string>
+    <string name="esp_device_plugs">Plug Base</string>
+    <string name="esp_device_plugs_get_status_failed">Get status failed</string>
+    <string name="esp_device_remote_address_hint">Please input address</string>
+    <string name="esp_device_remote_command_hint">Please input command</string>
+    <string name="esp_device_remote_post_failed">Post failed</string>
+    <string name="esp_device_remote_post_success">Post Success</string>
+    <string name="esp_device_remote_repeat_hint">Please input repeat times</string>
+    <string name="esp_device_share_progress_message">Creating QR code…</string>
+    <string name="esp_device_share_result_failed">Create QR code failed</string>
+    <string name="esp_device_task_dialog_message">Please wait…</string>
+    <string name="esp_device_timer">Timer</string>
+    <string name="esp_device_timer_delete_result_failed">Delete failed</string>
+    <string name="esp_device_timer_delete_result_success">Delete complete</string>
+    <string name="esp_device_timer_enter_time_message">Please enter time</string>
+    <string name="esp_device_timer_menu_add">Add</string>
+    <string name="esp_device_timer_menu_save">Save</string>
+    <string name="esp_device_timer_save_result_failed">Save failed</string>
+    <string name="esp_device_timer_save_result_success">Save complete</string>
+    <string name="esp_device_timer_week_friday">5</string>
+    <string name="esp_device_timer_week_monday">1</string>
+    <string name="esp_device_timer_week_saturday">6</string>
+    <string name="esp_device_timer_week_sunday">7</string>
+    <string name="esp_device_timer_week_thursday">4</string>
+    <string name="esp_device_timer_week_tuesday">2</string>
+    <string name="esp_device_timer_week_wednesday">3</string>
+    <string name="esp_device_trigger">Trigger</string>
+    <string name="esp_device_trigger_add">New trigger</string>
+    <string name="esp_device_trigger_delete">Delete</string>
+    <string name="esp_device_trigger_dimension">Dimension</string>
+    <string name="esp_device_trigger_get_failed">Get trigger failed, please check your network</string>
+    <string name="esp_device_trigger_name">Name</string>
+    <string name="esp_device_trigger_name_hint">Please input name</string>
+    <string name="esp_device_trigger_settings_add_notification">Add notification</string>
+    <string name="esp_device_trigger_settings_back_exit">Exit</string>
+    <string name="esp_device_trigger_settings_back_msg">You haven\'t save the changed, exit?</string>
+    <string name="esp_device_trigger_settings_delete_notification">Delete</string>
+    <string name="esp_device_trigger_settings_save">Save changes</string>
+    <string name="esp_device_trigger_settings_save_failed">Save failed</string>
+    <string name="esp_device_trigger_settings_save_suc">Save completed</string>
+    <string name="esp_device_voltage">Voltage</string>
+    <string name="esp_espbutton_configure_button_scan">Long click EspButton Left key</string>
+    <string name="esp_espbutton_configure_complete">Configure complete</string>
+    <string name="esp_espbutton_configure_continue">Continue to pair ?</string>
+    <string name="esp_espbutton_configure_counter">%1$d seconds</string>
+    <string name="esp_espbutton_configure_exit">Exit</string>
+    <string name="esp_espbutton_configure_forbid">Forbid</string>
+    <string name="esp_espbutton_configure_pairing">Pairing…</string>
+    <string name="esp_espbutton_configure_permit">Permit</string>
+    <string name="esp_espbutton_configure_progress">Configuring…</string>
+    <string name="esp_espbutton_configure_request">Permit pair device %1$s ?</string>
+    <string name="esp_espbutton_configure_result">Device %1$s pair EspButton %2$s</string>
+    <string name="esp_espbutton_configure_result_failed">failed</string>
+    <string name="esp_espbutton_configure_result_suc">successfully</string>
+    <string name="esp_espbutton_configure_waiting">Finding device…</string>
+    <string name="esp_espbutton_custion_timer">Set timer</string>
+    <string name="esp_espbutton_custom_brightness_dim">\u0020\u0020-\u0020\u0020</string>
+    <string name="esp_espbutton_custom_brightness_increase">\u0020\u0020+\u0020\u0020</string>
+    <string name="esp_espbutton_custom_brightness_percent">Set brightness</string>
+    <string name="esp_espbutton_custom_brightness_text">%1$d%%</string>
+    <string name="esp_espbutton_custom_broadcast">Broadcast</string>
+    <string name="esp_espbutton_custom_get_settings">Get settings…</string>
+    <string name="esp_espbutton_custom_post_settings">Post settings…</string>
+    <string name="esp_espbutton_custom_select_color">Select color</string>
+    <string name="esp_espbutton_custom_timer_hint">0 ~ 3600 seconds</string>
+    <string name="esp_espbutton_custom_timer_text">seconds</string>
+    <string name="esp_espbutton_custom_turnonoff">Set switch</string>
+    <string name="esp_espbutton_custom_turnonoff_reversing">Reversing</string>
+    <string name="esp_espbutton_mac">Button MAC: %1$s</string>
+    <string name="esp_espbutton_permit_all">Permit all pair requests</string>
+    <string name="esp_espbutton_qr_dialog_title">Do you want configure EspButton ?</string>
+    <string name="esp_espbutton_start_configure">Start configure</string>
+    <string name="esp_espbutton_temp_key">Temp Key: %1$s</string>
+    <string name="esp_esptouch">Esp Touch</string>
+    <string name="esp_esptouch_connect_wifi">"%1$s is connected to Wi-Fi"</string>
+    <string name="esp_esptouch_contacting_server">Contacting the server…</string>
+    <string name="esp_esptouch_discovering_devices">Discovering the devices…</string>
+    <string name="esp_esptouch_done_text">Done</string>
+    <string name="esp_esptouch_hint_msg">\"Please make sure that the green light of device is under twinkle slowly before click [OK]. If the light is yellow, please wait for the light to turn green.\"</string>
+    <string name="esp_esptouch_is_hidden">This Wi-Fi is hidden</string>
+    <string name="esp_esptouch_menu_browser_configure">Webpage Configure</string>
+    <string name="esp_esptouch_menu_get_share">Get Share</string>
+    <string name="esp_esptouch_menu_softap_configure">SoftAP Configure</string>
+    <string name="esp_esptouch_message_cloud_title">Connected to Cloud Device List(%1$d):\n</string>
+    <string name="esp_esptouch_message_wifi_title">Connected to Wi-Fi Device List(%1$d):\n</string>
+    <string name="esp_esptouch_password">Please enter password</string>
+    <string name="esp_esptouch_registering_devices">Registering the devices…</string>
+    <string name="esp_esptouch_result_title">Esptouch Result</string>
+    <string name="esp_esptouch_show_password">Show password</string>
+    <string name="esp_esptouch_ssid">SSID: %1$s</string>
+    <string name="esp_esptouch_version">EspTouch Ver : %1$s</string>
+    <string name="esp_esptouch_wifi_hint">Please connect Wi-Fi first</string>
+    <string name="esp_group_icon_select">Select icon</string>
+    <string name="esp_group_input_name">Input group name</string>
+    <string name="esp_group_unnamed">Unnamed</string>
+    <string name="esp_login_account">Enter Email</string>
+    <string name="esp_login_auto_login">Auto Login</string>
+    <string name="esp_login_email_hint">Please enter legal email</string>
+    <string name="esp_login_forget_password"><u>Forget Password</u></string>
+    <string name="esp_login_login">Login</string>
+    <string name="esp_login_password">Enter Password</string>
+    <string name="esp_login_password_hint">Please enter password</string>
+    <string name="esp_login_progress_message">Log in…</string>
+    <string name="esp_login_quick_usage">Quick Usage</string>
+    <string name="esp_login_register">Register</string>
+    <string name="esp_login_result_failed">Account or password error</string>
+    <string name="esp_login_result_network_unaccessible">Network is unaccassible</string>
+    <string name="esp_login_result_not_register">This email is not register</string>
+    <string name="esp_login_result_password_error">Password error</string>
+    <string name="esp_login_result_success">Login Success</string>
+    <string name="esp_login_third_party"><u>Third-party login</u></string>
+    <string name="esp_main_add">Add</string>
+    <string name="esp_main_all">All</string>
+    <string name="esp_main_all_type">All types</string>
+    <string name="esp_main_bottom_item_activate">Make the devices connect to could</string>
+    <string name="esp_main_bottom_item_all">Select All/Inverse devices</string>
+    <string name="esp_main_bottom_item_delete">Delete selected devices</string>
+    <string name="esp_main_bottom_item_move">Move selected devices into direct Group</string>
+    <string name="esp_main_bottom_item_remove">Remove selected devices from the Group</string>
+    <string name="esp_main_bottom_item_upgrade">Upgrade device version</string>
+    <string name="esp_main_delete_message">Do you want to delete this device?</string>
+    <string name="esp_main_device_activate_failed">Make device connect to cloud failed</string>
+    <string name="esp_main_device_activate_suc">Make device connect to cloud successfully</string>
+    <string name="esp_main_device_activating">Activating…</string>
+    <string name="esp_main_device_menu_activate">Connect to cloud</string>
+    <string name="esp_main_device_menu_delete">Delete</string>
+    <string name="esp_main_device_menu_more">More</string>
+    <string name="esp_main_device_menu_rename">Rename</string>
+    <string name="esp_main_device_move_dialog_title">Move devices into</string>
+    <string name="esp_main_drawer_item_account">Not logged</string>
+    <string name="esp_main_drawer_item_add_device">Add Devices</string>
+    <string name="esp_main_drawer_item_help">Help</string>
+    <string name="esp_main_drawer_item_login">Login/Register</string>
+    <string name="esp_main_drawer_item_logout">Logout</string>
+    <string name="esp_main_drawer_item_settings">Settings</string>
+    <string name="esp_main_edit_delete_selected">Delete</string>
+    <string name="esp_main_edit_delete_sellected_message">Do you want to delete all selected devices?</string>
+    <string name="esp_main_edit_has_eneditable_device_message">Some devices can\'t delete</string>
+    <string name="esp_main_exit_message">\nDo you want to exit?\n</string>
+    <string name="esp_main_exiting">Exiting…</string>
+    <string name="esp_main_group_menu_delete">Delete</string>
+    <string name="esp_main_group_menu_rename">Rename</string>
+    <string name="esp_main_menu_sort_device">Device sort</string>
+    <string name="esp_main_network_enable_msg">No available network</string>
+    <string name="esp_main_not_login_msg">You are not logged in, some function will be limited.</string>
+    <string name="esp_main_only_show_usable_device">Only show usable devices</string>
+    <string name="esp_main_search">Search</string>
+    <string name="esp_main_sort_by_activate">Activated time</string>
+    <string name="esp_main_sort_by_name">Device name</string>
+    <string name="esp_main_sort_title">Sort by</string>
+    <string name="esp_main_type_flammable">Flammable Gas</string>
+    <string name="esp_main_type_humiture">Humiture</string>
+    <string name="esp_main_type_light">Light</string>
+    <string name="esp_main_type_plug">Plug</string>
+    <string name="esp_main_type_plugs">Plugs</string>
+    <string name="esp_main_type_soundbox">Soundbox</string>
+    <string name="esp_main_type_voltage">Voltage</string>
+    <string name="esp_main_waiting_for_upgrading">Waiting for upgrading</string>
+    <string name="esp_qrcode_capture_device">Capture device</string>
+    <string name="esp_qrcode_capture_result_failed">Capture device failed</string>
+    <string name="esp_qrcode_capture_result_success">Capture device success</string>
+    <string name="esp_qrcode_capturing_message">Capturing device…</string>
+    <string name="esp_qrcode_decode_failed">Unsupported QR code content</string>
+    <string name="esp_register_account">User Name</string>
+    <string name="esp_register_account_email_format_error">Email format error</string>
+    <string name="esp_register_account_email_toast">Please enter User name and Email</string>
+    <string name="esp_register_captcha_code">Captcha code</string>
+    <string name="esp_register_captcha_code_toast">Please input captcha code</string>
+    <string name="esp_register_email">Email</string>
+    <string name="esp_register_get_sms_captcha_code">Get Sms captcha code</string>
+    <string name="esp_register_get_sms_captcha_code_again">Get Sms captcha code after %1$d seconds</string>
+    <string name="esp_register_input_password">Enter at least 6 words password</string>
+    <string name="esp_register_input_password_again">Enter password again</string>
+    <string name="esp_register_phone">Phone number</string>
+    <string name="esp_register_phone_number_toast">Please input phone number</string>
+    <string name="esp_register_progress_message">Register…</string>
+    <string name="esp_register_register">Register</string>
+    <string name="esp_register_result_account_exist">User Name or Email already exists</string>
+    <string name="esp_register_result_account_format_error">User Name or Email format error</string>
+    <string name="esp_register_result_network_unaccessible">Network is unaccassible</string>
+    <string name="esp_register_result_phone_exist">Phone number already exists</string>
+    <string name="esp_register_result_phont_code_error">Phone number or chaptcha code error</string>
+    <string name="esp_register_result_success">Register success</string>
+    <string name="esp_register_same_password_toast">Please enter same password</string>
+    <string name="esp_register_with_email"><u>Register with Email</u></string>
+    <string name="esp_register_with_phone"><u>Register with phone number</u></string>
+    <string name="esp_reset_password">Reset Password</string>
+    <string name="esp_reset_password_email_hint">Please input Email</string>
+    <string name="esp_reset_password_progress">Sending request…</string>
+    <string name="esp_reset_password_result_completed">The Email has sent, please check your email as soon as possible</string>
+    <string name="esp_reset_password_result_email_not_exist">The Email does not exit</string>
+    <string name="esp_reset_password_result_failed">Sent request failed</string>
+    <string name="esp_scene">Scene</string>
+    <string name="esp_scene_create">Create new scene</string>
+    <string name="esp_scene_delete_dialog_msg">Delete %1$s ?</string>
+    <string name="esp_scene_delete_dialog_title">Warning</string>
+    <string name="esp_scene_duplicate_scene_msg">Duplicate scene already exists</string>
+    <string name="esp_scene_edit_hint">Input a new scene name</string>
+    <string name="esp_scene_menu_control">Control</string>
+    <string name="esp_scene_menu_edit">Select</string>
+    <string name="esp_scene_menu_edit_cancel">Cancel</string>
+    <string name="esp_scene_menu_remove">Remove</string>
+    <string name="esp_scene_menu_select_all">Select All</string>
+    <string name="esp_scene_menu_sync_local">Synchronize local scenes</string>
+    <string name="esp_scene_move_device_into_toast">Add completed</string>
+    <string name="esp_scene_no_controllable_device_type_msg">No controllable device type is selected</string>
+    <string name="esp_scene_popmenu_delete">Delete</string>
+    <string name="esp_scene_popmenu_rename">Rename</string>
+    <string name="esp_scene_remove_dialog_msg">Remove all selected devices ?</string>
+    <string name="esp_secen_no_online_device_msg">All selected devices are offline</string>
+    <string name="esp_settings">Settings</string>
+    <string name="esp_settings_account">Account</string>
+    <string name="esp_settings_account_auto_login">Auto login</string>
+    <string name="esp_settings_account_logout">Logout</string>
+    <string name="esp_settings_account_not_login">Not login</string>
+    <string name="esp_settings_account_not_login_summary">Click to login</string>
+    <string name="esp_settings_account_register">Register</string>
+    <string name="esp_settings_debug">Debug</string>
+    <string name="esp_settings_debug_clear_log">Clear Log</string>
+    <string name="esp_settings_debug_read_log">Read debug Log</string>
+    <string name="esp_settings_debug_read_log_no_log">No stored log</string>
+    <string name="esp_settings_debug_store_log">Store Log</string>
+    <string name="esp_settings_device">Device</string>
+    <string name="esp_settings_device_auto_configure">Auto make device connect to cloud</string>
+    <string name="esp_settings_device_auto_refresh">Auto refresh device information</string>
+    <string name="esp_settings_device_show_mesh_tree_summary">If device support mesh</string>
+    <string name="esp_settings_esppush">Accept message push</string>
+    <string name="esp_settings_message">Message</string>
+    <string name="esp_settings_surprise_msg">Open mesh tree view</string>
+    <string name="esp_settings_version">Version</string>
+    <string name="esp_settings_version_log">Version update log</string>
+    <string name="esp_settings_version_name">Version</string>
+    <string name="esp_settings_version_upgrade">Version upgrade</string>
+    <string name="esp_settings_wifi">Wifi</string>
+    <string name="esp_settings_wifi_edit">Wifi edit</string>
+    <string name="esp_soundbox_pause">Pause</string>
+    <string name="esp_soundbox_play">Play</string>
+    <string name="esp_soundbox_qingbting_live_title">Live</string>
+    <string name="esp_soundbox_volume">Volume</string>
+    <string name="esp_soundbox_xima_hot_title">Hot</string>
+    <string name="esp_soundbox_xima_live_title">Live</string>
+    <string name="esp_soundbox_xima_search_title">Search</string>
+    <string name="esp_third_party_authorizing">Authorizing…</string>
+    <string name="esp_third_party_facebook">Facebook</string>
+    <string name="esp_third_party_get_token_failed">Get %1$s access token failed</string>
+    <string name="esp_third_party_qq">QQ</string>
+    <string name="esp_third_party_twitter">Twitter</string>
+    <string name="esp_third_party_wechat">WeChat</string>
+    <string name="esp_third_party_weibo">Weibo</string>
+    <string name="esp_ui_status_activating">Activating…</string>
+    <string name="esp_ui_status_local">Local</string>
+    <string name="esp_ui_status_offline">Offline</string>
+    <string name="esp_ui_status_online">Cloud</string>
+    <string name="esp_ui_status_upgrading_local">Upgrading local…</string>
+    <string name="esp_ui_status_upgrading_online">Upgrading cloud…</string>
+    <string name="esp_upgrade_apk_downloading">Downloading %1$d %%</string>
+    <string name="esp_upgrade_apk_mobile_data_msg">You are using mobile data. Do you want upgrade?</string>
+    <string name="esp_upgrade_apk_mobile_data_title">Warning</string>
+    <string name="esp_upgrade_apk_status_complete">Download complete in PhoneStorage/Espressif/apk/Esp.apk</string>
+    <string name="esp_upgrade_apk_status_complete_toast">APK has downloaded in PhoneStorage/Espressif/apk/Esp.apk</string>
+    <string name="esp_upgrade_apk_status_download_failed">Download failed</string>
+    <string name="esp_upgrade_apk_status_lower_version">Your application is newest</string>
+    <string name="esp_upgrade_apk_status_not_found">Not found</string>
+    <string name="esp_wifi_edit">Wi-Fi Edit</string>
+    <string name="esp_wifi_pwd_delete">Delete</string>
+    <string name="esp_wifi_pwd_delete_sellected_message">Do you want to delete the Wi-Fi password?</string>
+    <string name="esp_wifi_pwd_edit">Edit</string>
+    <string name="esp_wifi_pwd_edit_title">Edit Wi-Fi password</string>
+    <string name="evenote_title">ShareSDK is a magical SDK</string>
+    <string name="evernote">Evernote</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebookmessenger">Facebook Messenger</string>
+    <string name="file_upload">Share File</string>
+    <string name="finish">Finish</string>
+    <string name="flickr">Flickr</string>
+    <string name="foursquare">FourSquare</string>
+    <string name="get_other_info_format">Get %s other user info</string>
+    <string name="get_sina_friends_list">Get Sina Weibo followers</string>
+    <string name="get_tencent_friends_list">Get Tencent Weibo followers</string>
+    <string name="get_token_format">Get %s AccessToken</string>
+    <string name="get_user_info_format">Get %s Authorized user info</string>
+    <string name="google_plus_client_inavailable">Google+ client not exists or the version is too low</string>
+    <string name="googleplus">Google+</string>
+    <string name="image_upload">Share Image (Local)</string>
+    <string name="image_upload_bitmap">Share Image (Bitmap Object)</string>
+    <string name="image_upload_url">Share Image (Internet Image)</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagram_client_inavailable">Instagram client not exists or the version is too low</string>
+    <string name="instapager_email_or_password_incorrect">Email or Password incorrect</string>
+    <string formatted="false" name="instapager_login_html">
+
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+&lt;meta content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" id=\"viewport\" name=\"viewport\">
+&lt;meta content=\"yes\" name=\"apple-mobile-web-app-capable\">
+&lt;title>%s&lt;/title>
+&lt;style type=\"text/css\">
+body{margin:0;padding:0}
+.inputstyle {
+    -webkit-tap-highlight-color:rgba(255,255,255,0);
+    width:100%%;
+    height:44px;
+    color:#000;
+    background:0;
+    border:0;
+    font-size:16px;
+    outline: none;
+    -webkit-appearance:none
+}
+
+.btn {
+    width:90%%;
+    height:44px;
+    line-height:44px;
+    background:#A0C035;
+    border:0;
+    border-radius:4px;
+    color:#fff;
+    font-size:16px;
+    text-align:center;
+    margin-top:15px;
+    display:block
+}
+.btn:disabled {
+    background: #dddddd;
+}
+.error {
+    color:red;
+}
+&lt;/style>
+&lt;/head>
+
+&lt;body>
+&lt;script type=\"text/javascript\">
+function login(form){
+    var u=form[\"u\"].value,p=form[\"p\"].value;
+    if(!u || !p)
+        return false;
+    form[\"s\"].disabled = true;
+    return true;
+}
+&lt;/script>
+&lt;form style=\"margin-top:45px;\" action=\"%s\" metho=\"get\" onsubmit=\"return login(this);\">
+%s
+&lt;div style=\"padding-left:15px;border-top:1px solid #E3E3E5;border-bottom:1px solid #E3E3E5;\">
+ &lt;input type=\"hidden\" name=\"ID_SIGN\" value=\"OWELJSFPWECSFEW\"/>
+ &lt;input class=\"inputstyle\" id=\"u\" name=\"u\" type=\"text\" value=\"%s\" placeholder=\"%s\" style=\"border-bottom:1px solid #E3E3E5;\"/>
+ &lt;input class=\"inputstyle\" id=\"p\" name=\"p\" type=\"password\" placeholder=\"%s\"/>
+&lt;/div>
+&lt;p>&lt;input style=\"margin:0 auto;\" type=\"submit\" name=\"s\" value=\"  %s  \" class=\"btn\"/>&lt;/p>
+&lt;/form>
+&lt;/body>
+&lt;/html>
+
+    </string>
+    <string name="instapaper">Instapaper</string>
+    <string name="instapaper_email">Email</string>
+    <string name="instapaper_login">Sign In</string>
+    <string name="instapaper_logining">Sign In…</string>
+    <string name="instapaper_pwd">Password</string>
+    <string name="kaixin">Kaixin</string>
+    <string name="kakaostory">KakaoStory</string>
+    <string name="kakaostory_client_inavailable">KakaoStory client not exists or the version is too low</string>
+    <string name="kakaotalk">KakaoTalk</string>
+    <string name="kakaotalk_client_inavailable">KakaoTalk client not exists or the version is too low</string>
+    <string name="laiwang">Laiwang</string>
+    <string name="laiwang_client_inavailable">Laiwangs client not exists or the version is too low</string>
+    <string name="laiwangcustomize">Customize-Laiwang</string>
+    <string name="laiwangmoments">Laiwang Moments</string>
+    <string name="line">Line</string>
+    <string name="line_client_inavailable">Line client not exists or the version is too low</string>
+    <string name="linkedin">Linked in</string>
+    <string name="list_friends">Friends on %s</string>
+    <string name="mingdao">Mingdao</string>
+    <string name="mingdao_share_content">Share webpage</string>
+    <string name="more">More</string>
+    <string name="multi_share">Photo Sharing</string>
+    <string name="music_upload">Share Music</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="neteasemicroblog">Netease Microblog</string>
+    <string name="not_yet_authorized">Not Authorized</string>
+    <string name="pinterest">Pinterest</string>
+    <string name="pinterest_client_inavailable">Pinterest client not exists or the version is too low</string>
+    <string name="plz_choose_wechat">Please select Wechat client to complete the operation</string>
+    <string name="pocket">Pocket</string>
+    <string name="pull_to_refresh">Pull down to refresh</string>
+    <string name="qq">QQ</string>
+    <string name="qq_client_inavailable">Mobile QQ client not exists or the version is too low</string>
+    <string name="qq_share_from_qqlogin">QQ/QZone login to post Weibo</string>
+    <string name="qq_share_from_tlogin">Tencent Weibo login to post Weibo</string>
+    <string name="qq_share_way">Please Select Share way</string>
+    <string name="qzone">QZone</string>
+    <string name="qzone_add_blog_sample"><h1>QQ Connect</h1></string>
+    <string name="qzone_customer_share_style">custom QZone share style</string>
+    <string name="receive_rewards">Congratulations, you get %s gold!</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <string name="renren">Renren</string>
+    <string name="select_a_friend">Please select a friend</string>
+    <string name="select_one_plat_at_least">Please select a target platform</string>
+    <string name="shake2share">Shake your phone!</string>
+    <string name="share">Share</string>
+    <string name="share_canceled">Operation canceled</string>
+    <string name="share_completed">Operation succeeded</string>
+    <string name="share_content">ShareSDK for Android not only integration social platforms, like Facebook, Twitter, Google+. But also Our strong professional backend support can easy to know the Users,Information Flow,Backflow, Backflow rate, Share Rate,etc. See more detail on website http://mob.com @ShareSDK</string>
+    <string name="share_content_short">ShareSDK for Android not only integration social platforms, like Facebook, Twitter, Google+. But also Our strong professional backend support can easy to know the Users,Information Flow,Backflow, Backflow rate, Share Rate,etc. See more detail on website http://mob.com @ShareSDK</string>
+    <string name="share_failed">Operation failed</string>
+    <string name="share_to">Share to </string>
+    <string name="share_to_favorite">Wechat Favorite</string>
+    <string name="share_to_format">Share to %s</string>
+    <string name="share_to_mingdao">Share To Mingdao</string>
+    <string name="share_to_moment">Wechat Moments</string>
+    <string name="share_to_qq">Share To QQ</string>
+    <string name="share_to_qzone">Share To QZone</string>
+    <string name="share_to_qzone_default">Shared from %s</string>
+    <string name="share_to_wechat">Wechat Friends</string>
+    <string name="share_to_yixin">Yixin Friends</string>
+    <string name="share_to_yixin_favorite">Yixin Favorite</string>
+    <string name="share_to_yixin_moment">Yixin Moments</string>
+    <string name="sharing">Sharing operation is working in the background…</string>
+    <string name="shortmessage">Short Message</string>
+    <string name="sinaweibo">Sina Weibo</string>
+    <string name="sm_item_about">Demo  Ver. %s</string>
+    <string name="sm_item_auth">Authorize</string>
+    <string name="sm_item_custom_fields">Custom share fields</string>
+    <string name="sm_item_customer">Custom API</string>
+    <string name="sm_item_demo">API</string>
+    <string name="sm_item_fl_tc">Follow Tencent Weibo</string>
+    <string name="sm_item_fl_weibo">Follow Sina Weibo</string>
+    <string name="sm_item_share_view">Shake to share</string>
+    <string name="sm_item_visit_website">Visit the official site</string>
+    <string name="sm_item_wechat">Wechat</string>
+    <string name="sm_item_yixin">Yixin</string>
+    <string name="sohumicroblog">Sohu Microblog</string>
+    <string name="sohusuishenkan">Sohu Suishenkan</string>
+    <string name="tencentweibo">Tencent Weibo</string>
+    <string name="tumblr">Tumblr</string>
+    <string name="twitter">Twitter</string>
+    <string name="update">Share Text</string>
+    <string name="use_login_button">use login button instead</string>
+    <string name="video_upload">Share Video</string>
+    <string name="vkontakte">VK</string>
+    <string name="webpage_upload">Share Web (Local Image)</string>
+    <string name="webpage_upload_bitmap">Share Web (Bitmap Ojbect)</string>
+    <string name="webpage_upload_url">Share Web (Internet Image)</string>
+    <string name="website">http://www.mob.com</string>
+    <string name="wechat">Wechat</string>
+    <string name="wechat_client_inavailable">Wechat client not exists or the version is too low</string>
+    <string name="wechat_client_is_not_installed_correctly">Wechat client is not installed, or the version is too old</string>
+    <string name="wechat_client_not_support_following_operation">Wechat client does not support third-party applications to follow</string>
+    <string name="wechat_demo_title">Wechat share demo title</string>
+    <string name="wechatfavorite">Wechat Favorite</string>
+    <string name="wechatmoments">Wechat Moments</string>
+    <string name="weibo_oauth_regiseter">Authorization</string>
+    <string name="weibo_upload_content">分享图片</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="whatsapp_client_inavailable">WhatsApp client not exists or the version is too low</string>
+    <string name="yixin">Yixin</string>
+    <string name="yixin_client_inavailable">Yixin client not exists or the version is too low</string>
+    <string name="yixin_demo_title">Yixin share demo title</string>
+    <string name="yixinmoments">Yixin Moments</string>
+    <string name="youdao">Youdao</string>
+    <style name="ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/esp_actionbar_color</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleStyle</item>
+    </style>
+    <style name="ActionBarTitleStyle">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+    <style name="AppThemeDark" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+    <style name="BlueButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">75dip</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:background">@drawable/esp_button_blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="EspButtonKey">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">80dip</item>
+        <item name="android:minHeight">80dip</item>
+    </style>
+    <style name="FullScreen" parent="android:Theme.Holo.NoActionBar.Fullscreen"/>
+    <style name="LoginEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dip</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColorHint">@color/esp_text_hint_color</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">15dip</item>
+        <item name="android:background">@drawable/esp_edit_underline_bg</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+    <style name="MainDrawerItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:drawablePadding">15dip</item>
+        <item name="android:background">@drawable/esp_activity_icon_background</item>
+    </style>
+    <style name="NoTitleBar" parent="android:Theme.Holo.NoActionBar"/>
+    <style name="RegisterEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">15dip</item>
+        <item name="android:drawablePadding">15dip</item>
+        <item name="android:background">@drawable/esp_edit_round_bg</item>
+        <item name="android:textColorHint">@color/esp_text_hint_color</item>
+        <item name="android:textSize">19sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+    <style name="TransparentBgDialog" parent="android:Theme.Holo.Light.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="WeekCheckBox">
+        <item name="android:layout_margin">5dip</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:background">@drawable/esp_checked_blue_background</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/esp_week_text_color</item>
+    </style>
+    <style name="YellowButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">75dip</item>
+        <item name="android:minHeight">40dip</item>
+        <item name="android:background">@drawable/esp_button_yellow</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+</resources>

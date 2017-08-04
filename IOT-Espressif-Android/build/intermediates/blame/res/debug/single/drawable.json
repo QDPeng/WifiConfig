@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_icon_back.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_icon_back.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_1.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_1.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_up.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_up.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_4.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_4.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_activity_icon_background.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_activity_icon_background.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_down.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_down.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_wifi_signal.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_wifi_signal.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_drawer_divider.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_drawer_divider.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_right.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_right.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_left.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_left.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_remove.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\bottom_remove.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_button_blue.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_button_blue.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_all.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\bottom_all.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_move.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\bottom_move.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_checked_blue_background.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_checked_blue_background.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_light_brightness_progress.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_light_brightness_progress.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_2.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_2.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_checkbox.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_checkbox.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_delete.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\bottom_delete.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_upgrade.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\bottom_upgrade.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\device_rssi.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\device_rssi.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\group_create_btn.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\group_create_btn.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_espbutton_key_3.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_espbutton_key_3.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_activate.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\bottom_activate.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_plug_small.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_plug_small.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_plug.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_plug.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable\\esp_button_yellow.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable\\esp_button_yellow.xml"
+    }
+]

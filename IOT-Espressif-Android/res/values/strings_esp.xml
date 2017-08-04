@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="esp_main_search">Search</string>
+    <string name="esp_main_all">All</string>
+    <string name="esp_main_add">Add</string>
+    <string name="esp_main_drawer_item_account">Not logged</string>
+    <string name="esp_main_drawer_item_login">Login/Register</string>
+    <string name="esp_main_drawer_item_add_device">Add Devices</string>
+    <string name="esp_main_drawer_item_settings">Settings</string>
+    <string name="esp_main_drawer_item_help">Help</string>
+    <string name="esp_main_drawer_item_logout">Logout</string>
+    <string name="esp_main_group_menu_rename">Rename</string>
+    <string name="esp_main_group_menu_delete">Delete</string>
+    <string name="esp_main_device_menu_rename">Rename</string>
+    <string name="esp_main_device_menu_delete">Delete</string>
+    <string name="esp_main_device_menu_activate">Connect to cloud</string>
+    <string name="esp_main_device_menu_more">More</string>
+    <string name="esp_main_bottom_item_all">Select All/Inverse devices</string>
+    <string name="esp_main_bottom_item_activate">Make the devices connect to could</string>
+    <string name="esp_main_bottom_item_delete">Delete selected devices</string>
+    <string name="esp_main_bottom_item_move">Move selected devices into direct Group</string>
+    <string name="esp_main_bottom_item_remove">Remove selected devices from the Group</string>
+    <string name="esp_main_bottom_item_upgrade">Upgrade device version</string>
+    <string name="esp_main_device_move_dialog_title">Move devices into</string>
+    <string name="esp_main_not_login_msg">You are not logged in, some function will be limited.</string>
+    <string name="esp_main_network_enable_msg">No available network</string>
+    <string name="esp_main_exit_message">\nDo you want to exit?\n</string>
+    <string name="esp_main_exiting">Exiting&#8230;</string>
+    <string name="esp_main_delete_message">Do you want to delete this device?</string>
+    <string name="esp_main_edit_delete_selected">Delete</string>
+    <string name="esp_main_edit_delete_sellected_message">Do you want to delete all selected devices?</string>
+    <string name="esp_main_edit_has_eneditable_device_message">Some devices can\'t delete</string>
+    <string name="esp_main_device_activating">Activating&#8230;</string>
+    <string name="esp_main_device_activate_suc">Make device connect to cloud successfully</string>
+    <string name="esp_main_device_activate_failed">Make device connect to cloud failed</string>
+    <string name="esp_main_menu_sort_device">Device sort</string>
+    <string name="esp_main_sort_title">Sort by</string>
+    <string name="esp_main_sort_by_name">Device name</string>
+    <string name="esp_main_sort_by_activate">Activated time</string>
+    <string name="esp_main_all_type">All types</string>
+    <string name="esp_main_type_plug">Plug</string>
+    <string name="esp_main_type_plugs">Plugs</string>
+    <string name="esp_main_type_humiture">Humiture</string>
+    <string name="esp_main_type_flammable">Flammable Gas</string>
+    <string name="esp_main_type_light">Light</string>
+    <string name="esp_main_type_voltage">Voltage</string>
+    <string name="esp_main_type_soundbox">Soundbox</string>
+    <string name="esp_main_only_show_usable_device">Only show usable devices</string>
+    <string name="esp_main_waiting_for_upgrading">Waiting for upgrading</string>
+
+    <string name="esp_login_account">Enter Email</string>
+    <string name="esp_login_password">Enter Password</string>
+    <string name="esp_login_auto_login">Auto Login</string>
+    <string name="esp_login_login">Login</string>
+    <string name="esp_login_register">Register</string>
+    <string name="esp_login_progress_message">Log in&#8230;</string>
+    <string name="esp_login_result_success">Login Success</string>
+    <string name="esp_login_result_network_unaccessible">Network is unaccassible</string>
+    <string name="esp_login_result_not_register">This email is not register</string>
+    <string name="esp_login_result_password_error">Password error</string>
+    <string name="esp_login_result_failed">Account or password error</string>
+    <string name="esp_login_quick_usage">Quick Usage</string>
+    <string name="esp_login_third_party"><u>Third-party login</u></string>
+    <string name="esp_login_email_hint">Please enter legal email</string>
+    <string name="esp_login_password_hint">Please enter password</string>
+    <string name="esp_login_forget_password"><u>Forget Password</u></string>
+
+    <string name="esp_third_party_weibo">Weibo</string>
+    <string name="esp_third_party_wechat">WeChat</string>
+    <string name="esp_third_party_qq">QQ</string>
+    <string name="esp_third_party_facebook">Facebook</string>
+    <string name="esp_third_party_twitter">Twitter</string>
+    <string name="esp_third_party_authorizing">Authorizing&#8230;</string>
+    <string name="esp_third_party_get_token_failed">Get %1$s access token failed</string>
+
+    <string name="esp_register_account">User Name</string>
+    <string name="esp_register_email">Email</string>
+    <string name="esp_register_input_password">Enter at least 6 words password</string>
+    <string name="esp_register_input_password_again">Enter password again</string>
+    <string name="esp_register_register">Register</string>
+    <string name="esp_register_account_email_toast">Please enter User name and Email</string>
+    <string name="esp_register_account_email_format_error">Email format error</string>
+    <string name="esp_register_same_password_toast">Please enter same password</string>
+    <string name="esp_register_progress_message">Register&#8230;</string>
+    <string name="esp_register_result_success">Register success</string>
+    <string name="esp_register_result_network_unaccessible">Network is unaccassible</string>
+    <string name="esp_register_result_account_format_error">User Name or Email format error</string>
+    <string name="esp_register_result_account_exist">User Name or Email already exists</string>
+    <string name="esp_register_result_phone_exist">Phone number already exists</string>
+    <string name="esp_register_phone">Phone number</string>
+    <string name="esp_register_result_phont_code_error">Phone number or chaptcha code error</string>
+    <string name="esp_register_captcha_code">Captcha code</string>
+    <string name="esp_register_get_sms_captcha_code">Get Sms captcha code</string>
+    <string name="esp_register_with_email"><u>Register with Email</u></string>
+    <string name="esp_register_with_phone"><u>Register with phone number</u></string>
+    <string name="esp_register_phone_number_toast">Please input phone number</string>
+    <string name="esp_register_captcha_code_toast">Please input captcha code</string>
+    <string name="esp_register_get_sms_captcha_code_again">Get Sms captcha code after %1$d seconds</string>
+
+    <string name="esp_reset_password">Reset Password</string>
+    <string name="esp_reset_password_email_hint">Please input Email</string>
+    <string name="esp_reset_password_progress">Sending request&#8230;</string>
+    <string name="esp_reset_password_result_completed">The Email has sent, please check your email as soon as possible</string>
+    <string name="esp_reset_password_result_failed">Sent request failed</string>
+    <string name="esp_reset_password_result_email_not_exist">The Email does not exit</string>
+
+    <string name="esp_qrcode_capture_device">Capture device</string>
+    <string name="esp_qrcode_capturing_message">Capturing device&#8230;</string>
+    <string name="esp_qrcode_capture_result_success">Capture device success</string>
+    <string name="esp_qrcode_capture_result_failed">Capture device failed</string>
+    <string name="esp_qrcode_decode_failed">Unsupported QR code content</string>
+
+    <string name="esp_activity_bottom_item_more_overflow">More</string>
+
+    <string name="esp_ui_status_upgrading_local">Upgrading local&#8230;</string>
+    <string name="esp_ui_status_upgrading_online">Upgrading cloud&#8230;</string>
+    <string name="esp_ui_status_offline">Offline</string>
+    <string name="esp_ui_status_activating">Activating&#8230;</string>
+    <string name="esp_ui_status_local">Local</string>
+    <string name="esp_ui_status_online">Cloud</string>
+
+    <string name="esp_settings">Settings</string>
+    <string name="esp_settings_account">Account</string>
+    <string name="esp_settings_account_register">Register</string>
+    <string name="esp_settings_account_not_login">Not login</string>
+    <string name="esp_settings_account_not_login_summary">Click to login</string>
+    <string name="esp_settings_account_auto_login">Auto login</string>
+    <string name="esp_settings_account_logout">Logout</string>
+    <string name="esp_settings_device">Device</string>
+    <string name="esp_settings_device_auto_refresh">Auto refresh device information</string>
+    <string name="esp_settings_device_auto_configure">Auto make device connect to cloud</string>
+    <string name="esp_settings_device_show_mesh_tree_summary">If device support mesh</string>
+    <string name="esp_settings_version">Version</string>
+    <string name="esp_settings_version_upgrade">Version upgrade</string>
+    <string name="esp_settings_version_name">Version</string>
+    <string name="esp_settings_version_log">Version update log</string>
+    <string name="esp_settings_debug">Debug</string>
+    <string name="esp_settings_debug_store_log">Store Log</string>
+    <string name="esp_settings_debug_read_log">Read debug Log</string>
+    <string name="esp_settings_debug_clear_log">Clear Log</string>
+    <string name="esp_settings_debug_read_log_no_log">No stored log</string>
+    <string name="esp_settings_wifi">Wifi</string>
+    <string name="esp_settings_wifi_edit">Wifi edit</string>
+    <string name="esp_settings_message">Message</string>
+    <string name="esp_settings_esppush">Accept message push</string>
+    <string name="esp_settings_surprise_msg">Open mesh tree view</string>
+
+    <string name="esp_upgrade_apk_downloading">Downloading %1$d %%</string>
+    <string name="esp_upgrade_apk_status_complete">Download complete in PhoneStorage/Espressif/apk/Esp.apk</string>
+    <string name="esp_upgrade_apk_status_complete_toast">APK has downloaded in PhoneStorage/Espressif/apk/Esp.apk</string>
+    <string name="esp_upgrade_apk_status_not_found">Not found</string>
+    <string name="esp_upgrade_apk_status_download_failed">Download failed</string>
+    <string name="esp_upgrade_apk_status_lower_version">Your application is newest</string>
+    <string name="esp_upgrade_apk_mobile_data_title">Warning</string>
+    <string name="esp_upgrade_apk_mobile_data_msg">You are using mobile data. Do you want upgrade?</string>
+
+    <string name="esp_configure_title">Device Configure</string>
+    <string name="esp_configure_activate">Make device connect to cloud</string>
+    <string name="esp_configure_multiple_devices">Multiple devices</string>
+    <string name="esp_configure_wifi_select_hint">Please select Wi-Fi</string>
+    <string name="esp_configure_wifi_password_hint">Input Wi-Fi password</string>
+    <string name="esp_configure_wifi_show_password">Show password</string>
+    <string name="esp_configure_wifi_hint">Please open Wi-Fi first</string>
+    <string name="esp_configure_direct_connect">Connect device</string>
+    <string name="esp_configure_direct_connecting">Connecting&#8230;</string>
+    <string name="esp_configure_direct_result_failed">Connect failed</string>
+    <string name="esp_configure_direct_result_not_support">The device don\'t support local usage</string>
+    <string name="esp_configure_direct_result_not_found">The device can\'t use now</string>
+    <string name="esp_configure_direct_result_suc">Connect successfully</string>
+    <string name="esp_configure_start">Start configure</string>
+    <string name="esp_configure_configuring">Configuring&#8230;</string>
+    <string name="esp_configure_result_success">Configuration completed</string>
+    <string name="esp_configure_result_failed">Configuration failed</string>
+    <string name="esp_configure_add">Add devices</string>
+
+    <string name="esp_browser_configure_titile">Device Configure</string>
+    <string name="esp_browser_confiugre_menu_connect">Connect device and configure</string>
+    <string name="esp_browser_confiugre_connecting">Connecting&#8230;</string>
+    <string name="esp_browser_configure_connect_failed">Connect device failed</string>
+
+    <string name="esp_device_task_dialog_message">Please wait&#8230;</string>
+
+    <string name="esp_device_menu_share">Share</string>
+    <string name="esp_device_menu_timer">Timer</string>
+    <string name="esp_device_menu_upgrade_local">Upgrade local</string>
+    <string name="esp_device_menu_upgrade_online">Upgrade cloud</string>
+    <string name="esp_device_menu_change_password">Change password</string>
+    <string name="esp_device_menu_espbutton_configure">Pair EspButton</string>
+    <string name="esp_device_menu_trigger">Trigger settings</string>
+    <string name="esp_device_dialog_upgrade_apk_message">You need upgrade apk to control the device</string>
+    <string name="esp_device_dialog_upgrade_device_message">The device need upgrade to use</string>
+    <string name="esp_device_dialog_upgrading_local_message">The device is upgrading local</string>
+    <string name="esp_device_dialog_upgrading_online_message">The device is upgrading cloud</string>
+    <string name="esp_device_dialog_upgrade_device_local">Upgrade online</string>
+    <string name="esp_device_dialog_upgrade_device_online">Upgrade cloud</string>
+
+    <string name="esp_device_share_progress_message">Creating QR code&#8230;</string>
+    <string name="esp_device_share_result_failed">Create QR code failed</string>
+
+    <string name="esp_device_timer">Timer</string>
+    <string name="esp_device_timer_menu_add">Add</string>
+    <string name="esp_device_timer_menu_save">Save</string>
+    <string name="esp_device_timer_week_sunday">7</string>
+    <string name="esp_device_timer_week_monday">1</string>
+    <string name="esp_device_timer_week_tuesday">2</string>
+    <string name="esp_device_timer_week_wednesday">3</string>
+    <string name="esp_device_timer_week_thursday">4</string>
+    <string name="esp_device_timer_week_friday">5</string>
+    <string name="esp_device_timer_week_saturday">6</string>
+    <string name="esp_device_timer_enter_time_message">Please enter time</string>
+    <string name="esp_device_timer_save_result_success">Save complete</string>
+    <string name="esp_device_timer_save_result_failed">Save failed</string>
+    <string name="esp_device_timer_delete_result_success">Delete complete</string>
+    <string name="esp_device_timer_delete_result_failed">Delete failed</string>
+
+    <string name="esp_device_trigger">Trigger</string>
+    <string name="esp_device_trigger_add">New trigger</string>
+    <string name="esp_device_trigger_delete">Delete</string>
+    <string name="esp_device_trigger_name">Name</string>
+    <string name="esp_device_trigger_name_hint">Please input name</string>
+    <string name="esp_device_trigger_dimension">Dimension</string>
+    <string name="esp_device_trigger_get_failed">Get trigger failed, please check your network</string>
+    <string name="esp_device_trigger_settings_add_notification">Add notification</string>
+    <string name="esp_device_trigger_settings_delete_notification">Delete</string>
+    <string name="esp_device_trigger_settings_save">Save changes</string>
+    <string name="esp_device_trigger_settings_save_suc">Save completed</string>
+    <string name="esp_device_trigger_settings_save_failed">Save failed</string>
+    <string name="esp_device_trigger_settings_back_msg">You haven\'t save the changed, exit?</string>
+    <string name="esp_device_trigger_settings_back_exit">Exit</string>
+
+    <string name="esp_device_light_freq">Frequency</string>
+    <string name="esp_device_light_red">Red</string>
+    <string name="esp_device_light_green">Green</string>
+    <string name="esp_device_light_blue">Blue</string>
+    <string name="esp_device_light_white">White</string>
+    <string name="esp_device_light_cwhite">Cold White</string>
+    <string name="esp_device_light_wwhite">Warm White</string>
+    <string name="esp_device_light_confirm">Confirm</string>
+    <string name="esp_device_light_disconnect_msg">Device is disconnected</string>
+    <string name="esp_device_light_continuous_control_forbidden">This light don\'t support to continuous control</string>
+    <string name="esp_device_light_espnow_low_battery">Low battery Espnow</string>
+    <string name="esp_device_light_menu_espbutton_settings">EspButton Settings</string>
+    <string name="esp_device_light_color">Color</string>
+    <string name="esp_device_light_brightness">Brightness</string>
+    <string name="esp_device_light_on">On</string>
+    <string name="esp_device_light_off">Off</string>
+
+    <string name="esp_device_remote_address_hint">Please input address</string>
+    <string name="esp_device_remote_command_hint">Please input command</string>
+    <string name="esp_device_remote_repeat_hint">Please input repeat times</string>
+    <string name="esp_device_remote_post_success">Post Success</string>
+    <string name="esp_device_remote_post_failed">Post failed</string>
+
+    <string name="esp_device_chartview_menu_select_date">Select date</string>
+
+    <string name="esp_device_humiture_temperature">Temperature</string>
+    <string name="esp_device_humiture_humidity">Humidity</string>
+
+    <string name="esp_device_flammable">Flammable</string>
+    <string name="esp_device_voltage">Voltage</string>
+
+    <string name="esp_device_plugs">Plug Base</string>
+    <string name="esp_device_plugs_get_status_failed">Get status failed</string>
+
+    <string name="esp_device_data_network_not_found_message">Please check the status of your network</string>
+
+    <string name="esp_device_control_all_mesh_plug">Control all mesh plugs</string>
+    <string name="esp_device_control_all_mesh_light">Control all mesh lightes</string>
+    <string name="esp_device_control_all_mesh_remote">Control all mesh remotes</string>
+
+    <string name="esp_esptouch">Esp Touch</string>
+    <string name="esp_esptouch_wifi_hint">Please connect Wi-Fi first</string>
+    <string name="esp_esptouch_ssid">SSID: %1$s</string>
+    <string name="esp_esptouch_password">Please enter password</string>
+    <string name="esp_esptouch_show_password">Show password</string>
+    <string name="esp_esptouch_is_hidden">This Wi-Fi is hidden</string>
+    <string name="esp_esptouch_version">EspTouch Ver : %1$s</string>
+    <string name="esp_esptouch_hint_msg">\"Please make sure that the green light of device is under twinkle slowly before click [OK]. If the light is yellow, please wait for the light to turn green.\"</string>
+    <string name="esp_esptouch_connect_wifi">"%1$s is connected to Wi-Fi"</string>
+    <string name="esp_esptouch_menu_get_share">Get Share</string>
+    <string name="esp_esptouch_menu_softap_configure">SoftAP Configure</string>
+    <string name="esp_esptouch_menu_browser_configure">Webpage Configure</string>
+    <string name="esp_esptouch_done_text">Done</string>
+    <string name="esp_esptouch_result_title">Esptouch Result</string>
+    <string name="esp_esptouch_message_cloud_title">Connected to Cloud Device List(%1$d):\n</string>
+    <string name="esp_esptouch_message_wifi_title">Connected to Wi-Fi Device List(%1$d):\n</string>
+	<string name="esp_esptouch_discovering_devices">Discovering the devices&#8230;</string>
+	<plurals name="esp_esptouch_device_found">
+	    <item quantity="one">%d device found</item>
+	    <item quantity="many">%d devices found</item>
+	</plurals>
+	<string name="esp_esptouch_contacting_server">Contacting the server&#8230;</string>
+	<string name="esp_esptouch_registering_devices">Registering the devices&#8230;</string>
+	<plurals name="esp_esptouch_device_registered">
+	    <item quantity="one">%d device registered</item>
+	    <item quantity="many">%d devices registered</item>
+	</plurals>
+    
+    <string name="esp_wifi_edit">Wi-Fi Edit</string>
+    <string name="esp_wifi_pwd_edit">Edit</string>
+    <string name="esp_wifi_pwd_edit_title">Edit Wi-Fi password</string>
+    <string name="esp_wifi_pwd_delete">Delete</string>
+    <string name="esp_wifi_pwd_delete_sellected_message">Do you want to delete the Wi-Fi password?</string>
+
+    <string name="esp_device_mesh_children_title">Mesh network</string>
+
+    <string name="esp_scene">Scene</string>
+    <string name="esp_scene_popmenu_rename">Rename</string>
+    <string name="esp_scene_popmenu_delete">Delete</string>
+    <string name="esp_scene_create">Create new scene</string>
+    <string name="esp_scene_edit_hint">Input a new scene name</string>
+    <string name="esp_scene_delete_dialog_title">Warning</string>
+    <string name="esp_scene_delete_dialog_msg">Delete %1$s ?</string>
+    <string name="esp_scene_move_device_into_toast">Add completed</string>
+    <string name="esp_scene_menu_sync_local">Synchronize local scenes</string>
+    <string name="esp_scene_duplicate_scene_msg">Duplicate scene already exists</string>
+    <string name="esp_scene_menu_edit">Select</string>
+    <string name="esp_scene_menu_edit_cancel">Cancel</string>
+    <string name="esp_scene_menu_remove">Remove</string>
+    <string name="esp_scene_menu_control">Control</string>
+    <string name="esp_scene_menu_select_all">Select All</string>
+    <string name="esp_scene_remove_dialog_msg">Remove all selected devices ?</string>
+    <string name="esp_scene_no_controllable_device_type_msg">No controllable device type is selected</string>
+    <string name="esp_secen_no_online_device_msg">All selected devices are offline</string>
+
+    <string name="esp_espbutton_qr_dialog_title">Do you want configure EspButton ?</string>
+    <string name="esp_espbutton_mac">Button MAC: %1$s</string>
+    <string name="esp_espbutton_temp_key">Temp Key: %1$s</string>
+    <string name="esp_espbutton_permit_all">Permit all pair requests</string>
+    <string name="esp_espbutton_start_configure">Start configure</string>
+    <string name="esp_espbutton_configure_exit">Exit</string>
+    <string name="esp_espbutton_configure_forbid">Forbid</string>
+    <string name="esp_espbutton_configure_permit">Permit</string>
+    <string name="esp_espbutton_configure_counter">%1$d seconds</string>
+    <string name="esp_espbutton_configure_progress">Configuring&#8230;</string>
+    <string name="esp_espbutton_configure_request">Permit pair device %1$s ?</string>
+    <string name="esp_espbutton_configure_result">Device %1$s pair EspButton %2$s</string>
+    <string name="esp_espbutton_configure_result_suc">successfully</string>
+    <string name="esp_espbutton_configure_result_failed">failed</string>
+    <string name="esp_espbutton_configure_continue">Continue to pair ?</string>
+    <string name="esp_espbutton_configure_button_scan">Long click EspButton Left key</string>
+    <string name="esp_espbutton_configure_waiting">Finding device&#8230;</string>
+    <string name="esp_espbutton_configure_pairing">Pairing&#8230;</string>
+    <string name="esp_espbutton_configure_complete">Configure complete</string>
+
+    <string name="esp_espbutton_custom_get_settings">Get settings&#8230;</string>
+    <string name="esp_espbutton_custom_post_settings">Post settings&#8230;</string>
+    <string name="esp_espbutton_custom_broadcast">Broadcast</string>
+    <string name="esp_espbutton_custom_select_color">Select color</string>
+    <string name="esp_espbutton_custom_brightness_percent">Set brightness</string>
+    <string name="esp_espbutton_custom_brightness_text">%1$d%%</string>
+    <string name="esp_espbutton_custom_brightness_increase">\u0020\u0020+\u0020\u0020</string>
+    <string name="esp_espbutton_custom_brightness_dim">\u0020\u0020-\u0020\u0020</string>
+    <string name="esp_espbutton_custion_timer">Set timer</string>
+    <string name="esp_espbutton_custom_timer_text">seconds</string>
+    <string name="esp_espbutton_custom_timer_hint">0 ~ 3600 seconds</string>
+    <string name="esp_espbutton_custom_turnonoff">Set switch</string>
+    <string name="esp_espbutton_custom_turnonoff_reversing">Reversing</string>
+
+    <string name="esp_soundbox_play">Play</string>
+    <string name="esp_soundbox_pause">Pause</string>
+    <string name="esp_soundbox_volume">Volume</string>
+    <string name="esp_soundbox_xima_hot_title">Hot</string>
+    <string name="esp_soundbox_xima_live_title">Live</string>
+    <string name="esp_soundbox_xima_search_title">Search</string>
+    <string name="esp_soundbox_qingbting_live_title">Live</string>
+
+    <string name="esp_group_icon_select">Select icon</string>
+    <string name="esp_group_input_name">Input group name</string>
+    <string name="esp_group_unnamed">Unnamed</string>
+</resources>
+<!-- 
+&#8230;   =   ...
+%%        =   %
+\'        =   '
+-->

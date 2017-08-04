@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:espressif="http://schemas.android.com/apk/res/com.espressif.iot" >
+
+    <!-- About device -->
+    <com.espressif.iot.ui.widget.preference.EspPreferenceCategory
+        android:key="device_category"
+        android:title="@string/esp_settings_device"
+        espressif:titleColor="@color/esp_preference_category_title" >
+        <ListPreference
+            android:entries="@array/esp_settings_device_auto_refresh_entries"
+            android:entryValues="@array/esp_settings_device_auto_refresh_values"
+            android:key="device_auto_refresh"
+            android:title="@string/esp_settings_device_auto_refresh" />
+        <ListPreference
+            android:entries="@array/esp_settings_auto_config_device_entries"
+            android:entryValues="@array/esp_settings_auto_config_device_values"
+            android:key="device_auto_configure"
+            android:title="@string/esp_settings_device_auto_configure" />
+    </com.espressif.iot.ui.widget.preference.EspPreferenceCategory>
+
+    <!-- About EspPush -->
+    <com.espressif.iot.ui.widget.preference.EspPreferenceCategory
+        android:key="message_category"
+        android:title="@string/esp_settings_message"
+        espressif:titleColor="@color/esp_preference_category_title" >
+        <CheckBoxPreference
+            android:key="message_esppush"
+            android:title="@string/esp_settings_esppush" />
+    </com.espressif.iot.ui.widget.preference.EspPreferenceCategory>
+
+    <!-- About Wifi -->
+    <com.espressif.iot.ui.widget.preference.EspPreferenceCategory
+        android:key="wifi_category"
+        android:title="@string/esp_settings_wifi"
+        espressif:titleColor="@color/esp_preference_category_title" >
+        <Preference
+            android:key="wifi_edit"
+            android:title="@string/esp_settings_wifi_edit" />
+    </com.espressif.iot.ui.widget.preference.EspPreferenceCategory>
+
+    <!-- About version -->
+    <com.espressif.iot.ui.widget.preference.EspPreferenceCategory
+        android:key="version_category"
+        android:title="@string/esp_settings_version"
+        espressif:titleColor="@color/esp_preference_category_title" >
+        <Preference
+            android:key="version_upgrade"
+            android:title="@string/esp_settings_version_upgrade" />
+        <Preference
+            android:key="version_name"
+            android:title="@string/esp_settings_version_name" />
+        <Preference
+            android:key="version_log"
+            android:title="@string/esp_settings_version_log" />
+    </com.espressif.iot.ui.widget.preference.EspPreferenceCategory>
+
+    <!-- About debug -->
+    <com.espressif.iot.ui.widget.preference.EspPreferenceCategory
+        android:key="debug_category"
+        android:title="@string/esp_settings_debug"
+        espressif:titleColor="@color/esp_preference_category_title" >
+        <CheckBoxPreference
+            android:key="store_log"
+            android:title="@string/esp_settings_debug_store_log" />
+
+        <Preference
+            android:key="read_log"
+            android:title="@string/esp_settings_debug_read_log" />
+        <Preference
+            android:key="clear_log"
+            android:title="@string/esp_settings_debug_clear_log" />
+    </com.espressif.iot.ui.widget.preference.EspPreferenceCategory>
+
+</PreferenceScreen>

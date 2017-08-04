@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\drawer_shadow.9.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xxhdpi\\drawer_shadow.9.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_drawer.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xxhdpi\\ic_drawer.png"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\app_icon.png",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\drawable-xxhdpi\\app_icon.png"
+    }
+]

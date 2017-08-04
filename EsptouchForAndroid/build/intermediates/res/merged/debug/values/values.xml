@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="taskResultCount">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">IOT_Espressif_EspTouch</string>
+    <string name="app_version">v0.3.4.6</string>
+    <string name="btnConfirmTitle">Confirm</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="spinnerTaskResultCountTitle">Task result count</string>
+    <string name="switchIsSsidHiddenTitle">SSID is Hidden</string>
+    <string name="tvApSsidTitle">SSID: </string>
+    <string name="tvPasswordTitle">Password: </string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

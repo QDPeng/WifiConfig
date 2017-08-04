@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="About">关于</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SmartConfig</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="msg">Author: younger </string>
+    <string name="msg1">本软件仅限用于学习交流。</string>
+    <string name="msg2">有任何疑问或者改进意见请联系QQ：491505215. Email: lanyiyang_dh@163.com    </string>
+    <string name="password">PASSWORD:</string>
+    <string name="ssid">SSID:</string>
+    <style name="AppTheme" parent="Theme.Sample">
+         <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+    <style name="MenuTextStyle">
+	    <item name="android:textSize">24sp</item>
+	</style>
+    <style name="Theme.Base" parent="android:Theme.Holo.Light"/>
+    <style name="Theme.Sample" parent="Theme.Base"/>
+    <style name="Widget"/>
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="loadingDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+ 	<!-- 对话框是否有遮盖 -->
+
+    </style>
+</resources>

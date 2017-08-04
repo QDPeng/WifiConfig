@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="esp_settings_device_auto_refresh_entries">
+        <item>Never</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="esp_settings_device_auto_refresh_values">
+        <item>0</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
+
+    <string-array name="esp_settings_auto_config_device_entries">
+        <item>Never</item>
+        <item>-20 dbm</item>
+        <item>-30 dbm</item>
+        <item>-40 dbm</item>
+        <item>-50 dbm</item>
+        <item>-60 dbm</item>
+    </string-array>
+    <string-array name="esp_settings_auto_config_device_values">
+        <item>0</item>
+        <item>-20</item>
+        <item>-30</item>
+        <item>-40</item>
+        <item>-50</item>
+        <item>-60</item>
+    </string-array>
+
+    <string-array name="esp_device_timer_type">
+        <item>Fixed time</item>
+        <item>Loop period</item>
+        <item>Loop in week</item>
+    </string-array>
+
+    <string-array name="esp_device_timer_period_units">
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>day</item>
+    </string-array>
+
+    <string-array name="esp_device_timer_period_unit_values">
+        <item>second</item>
+        <item>minute</item>
+        <item>hour</item>
+        <item>day</item>
+    </string-array>
+
+    <string-array name="esp_device_plug_timer_actions">
+        <item>Turn off</item>
+        <item>Turn on</item>
+        <item>On off</item>
+    </string-array>
+
+    <string-array name="esp_device_plug_timer_action_values">
+        <item>off_switch</item>
+        <item>on_switch</item>
+        <item>on_off_switch</item>
+    </string-array>
+
+    <string-array name="esp_device_plugs_timer_actions">
+        <item>Turn off</item>
+        <item>Turn on</item>
+        <item>On off</item>
+    </string-array>
+
+    <string-array name="esp_device_plugs_timer_action_values">
+        <item>off_plug_</item>
+        <item>on_plug_</item>
+        <item>on_off_plug_</item>
+    </string-array>
+
+    <string-array name="esp_device_timer_oprate_options">
+        <item>Delete</item>
+    </string-array>
+
+    <integer-array name="esp_touch_taskResultCount">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+    <string-array name="esp_main_device_sort">
+        <item>Device name</item>
+        <item>Activated time</item>
+    </string-array>
+
+    <string-array name="esp_espbutton_actions">
+        <item>Reset function</item>
+        <item>Set color</item>
+        <item>Turn on/off</item>
+        <item>Set timer</item>
+        <item>Set brightness</item>
+    </string-array>
+
+    <string-array name="esp_trigger_dimensions">
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>K</item>
+        <item>L</item>
+    </string-array>
+
+    <integer-array name="esp_light_colors">
+        <item>0xffffffff</item>
+        <item>0xffff0000</item>
+        <item>0xffffff00</item>
+        <item>0xff00ff00</item>
+        <item>0xff00ffff</item>
+        <item>0xff0000ff</item>
+        <item>0xffff00ff</item>
+    </integer-array>
+</resources>

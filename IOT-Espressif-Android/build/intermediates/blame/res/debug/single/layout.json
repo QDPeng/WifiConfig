@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\third_party_login_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\third_party_login_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\register_phone_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\register_phone_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\tree_view_item_layout.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\tree_view_item_layout.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_configure_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_configure_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_plug.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_plug.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\espbutton_turn_onoff.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\espbutton_turn_onoff.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_soundbox.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_soundbox.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\xima_track_content.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\xima_track_content.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\espbutton_color_picker.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\espbutton_color_picker.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_device_item.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_device_item.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\login_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\login_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_drawer_right.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_drawer_right.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_trigger_add_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_trigger_add_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\reset_password_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\reset_password_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_esp_fragment_bottom_bar.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_esp_fragment_bottom_bar.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\share_capture_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\share_capture_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_light_content.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_light_content.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\group_type_item.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\group_type_item.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_drawer_right_item.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_drawer_right_item.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_container.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\fragment_container.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\soundbox_fragment_xima.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\soundbox_fragment_xima.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_timers_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_timers_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_configure_select_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_configure_select_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\activity_espmesh_testcase.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\activity_espmesh_testcase.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\xima_search_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\xima_search_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_trigger_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_trigger_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_esp_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_esp_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\espbutton_custom_key_settings.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\espbutton_custom_key_settings.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\register_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\register_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_mesh_children_list.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_mesh_children_list.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\esptouch_dialog_content.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\esptouch_dialog_content.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_root_router.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_root_router.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_timer_plug_loop_period_edit.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_timer_plug_loop_period_edit.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_timer_plug_loop_in_week_edit.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_timer_plug_loop_in_week_edit.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\esp_activity_abs.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\esp_activity_abs.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_bottom_color_item.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_bottom_color_item.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_pager_item.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\welcome_pager_item.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\wifi_configure_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\wifi_configure_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_configure_settings_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_configure_settings_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\widget_progressbar.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\widget_progressbar.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\espbutton_configure_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\espbutton_configure_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\wifi_layout.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\wifi_layout.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_remote.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_remote.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_plugs_aperture.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_plugs_aperture.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\login_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\qr_code_image.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\qr_code_image.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_group_item.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_group_item.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\register_email_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\register_email_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\espbutton_timer.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\espbutton_timer.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\edit_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\edit_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_esp_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_esp_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_timer_plug_fixed_time_edit.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_timer_plug_fixed_time_edit.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_chartview.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_chartview.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\main_drawer_left.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\main_drawer_left.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\welcome_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\welcome_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\xima_hot_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\xima_hot_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\xima_live_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\xima_live_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_layout.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_layout.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\group_edit_activity.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\group_edit_activity.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_trigger_settings_fragment.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_trigger_settings_fragment.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\chartview_date_select_dialog.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\chartview_date_select_dialog.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\esp_esptouch.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\esp_esptouch.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_ui_container.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_ui_container.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\espbutton_brightness.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\espbutton_brightness.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_light_main.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_light_main.xml"
+    },
+    {
+        "merged": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\build\\intermediates\\res\\merged\\debug\\layout\\device_activity_plugs.xml",
+        "source": "D:\\android-project\\WifiConfig\\IOT-Espressif-Android\\res\\layout\\device_activity_plugs.xml"
+    }
+]

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="15dip" >
+
+    <ImageView
+        android:id="@+id/button_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/esp_espbutton_img" />
+
+    <Button
+        android:id="@+id/key_up"
+        style="@style/EspButtonKey"
+        android:layout_alignLeft="@id/button_img"
+        android:layout_alignRight="@id/button_img"
+        android:layout_alignTop="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_up" />
+
+    <Button
+        android:id="@+id/key_left"
+        style="@style/EspButtonKey"
+        android:layout_alignBottom="@id/button_img"
+        android:layout_alignLeft="@id/button_img"
+        android:layout_alignTop="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_left" />
+
+    <Button
+        android:id="@+id/key_right"
+        style="@style/EspButtonKey"
+        android:layout_alignBottom="@id/button_img"
+        android:layout_alignRight="@id/button_img"
+        android:layout_alignTop="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_right" />
+
+    <Button
+        android:id="@+id/key_down"
+        style="@style/EspButtonKey"
+        android:layout_alignBottom="@id/button_img"
+        android:layout_alignLeft="@id/button_img"
+        android:layout_alignRight="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_down" />
+
+    <Button
+        android:id="@+id/key_1"
+        style="@style/EspButtonKey"
+        android:layout_alignLeft="@id/button_img"
+        android:layout_alignTop="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_1" />
+
+    <Button
+        android:id="@+id/key_2"
+        style="@style/EspButtonKey"
+        android:layout_alignRight="@id/button_img"
+        android:layout_alignTop="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_2" />
+
+    <Button
+        android:id="@+id/key_3"
+        style="@style/EspButtonKey"
+        android:layout_alignBottom="@id/button_img"
+        android:layout_alignLeft="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_3" />
+
+    <Button
+        android:id="@+id/key_4"
+        style="@style/EspButtonKey"
+        android:layout_alignBottom="@id/button_img"
+        android:layout_alignRight="@id/button_img"
+        android:background="@drawable/esp_espbutton_key_4" />
+
+    <ImageView
+        android:id="@+id/button_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/esp_espbutton_cover" />
+
+</RelativeLayout>

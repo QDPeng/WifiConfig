@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="esp_actionbar_color">#ff03a9f4</color>
+
+    <color name="esp_main_search_background">#fff3f3f3</color>
+    <color name="esp_main_groups_background">#fff3f3f3</color>
+    <color name="esp_main_devices_background">#fff3f3f3</color>
+    <color name="esp_main_drawer_background">#fff0f0f2</color>
+    <color name="esp_main_drawer_right_item_checked">#ff738ffe</color>
+    
+    <color name="esp_text_hint_color">#dddddd</color>
+    
+    <color name="esp_qrcode_viewfinder_mask">#60000000</color>
+    <color name="esp_qrcode_viewfinder_frame">#ff000000</color>
+    <color name="esp_qrcode_viewfinder_laser">#ffff0000</color>
+    <color name="esp_qrcode_result_view">#b0000000</color>
+    <color name="esp_qrcode_possible_result_points">#c0ffff00</color>
+    
+    <color name="esp_drag_view_background">#80ffffff</color>
+
+    <color name="esp_scene_background_intersects">#70000000</color>
+    <color name="esp_scene_background_selected">#40000000</color>
+    <color name="esp_scene_fragment_background">#f9ffffff</color>
+    
+    <color name="esp_preference_category_title">#ee36bfdc</color>
+
+    <color name="esp_light_activity_background">#ff646776</color>
+    
+    <color name="esp_color_view_ring1">#ff5b5a60</color>
+    <color name="esp_color_view_ring2">#ff7d8786</color>
+    <color name="esp_color_view_default">#ff7d8786</color>
+
+    <color name="esp_device_online">@color/esp_actionbar_color</color>
+    <color name="esp_device_offline">#ff999999</color>
+</resources>
