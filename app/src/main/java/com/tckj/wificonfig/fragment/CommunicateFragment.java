@@ -15,6 +15,10 @@ import com.tckj.wificonfig.R;
 import com.tckj.wificonfig.udp.UdpManager;
 import com.tckj.wificonfig.util.InetAddressUtils;
 
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.InetAddress;
+import java.net.Socket;
 import java.net.UnknownHostException;
 
 /**
@@ -79,6 +83,13 @@ public class CommunicateFragment extends Fragment implements View.OnClickListene
                         Log.d("wificonfig", e.toString());
                     }
                 }
+                new Thread(){
+                    @Override
+                    public void run() {
+                        send();
+                    }
+                }.start();
+
                 break;
             case R.id.receive_btn:
                 if (recvBtn.isSelected()) {
@@ -91,6 +102,17 @@ public class CommunicateFragment extends Fragment implements View.OnClickListene
                     recvBtn.setText("停止接收");
                 }
                 break;
+        }
+    }
+
+    private void send() {
+        try {
+            Socket socket = new Socket(InetAddress.getByName("192.168.4.1"), 5000);
+            PrintWriter write = new PrintWriter(socket.getOutputStream());
+            write.write("hello world");
+            write.close();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 

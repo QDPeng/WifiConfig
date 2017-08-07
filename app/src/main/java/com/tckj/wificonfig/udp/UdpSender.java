@@ -36,7 +36,7 @@ public class UdpSender extends Thread {
 
             udpSocket = new DatagramSocket(null);
             udpSocket.setReuseAddress(true);
-            udpSocket.bind(new InetSocketAddress(7001/*UdpManager.PORT*/));
+            udpSocket.bind(new InetSocketAddress(5000/*UdpManager.PORT*/));
         } catch (SocketException e) {
             e.printStackTrace();
             if (udpSocket != null) {
@@ -60,7 +60,7 @@ public class UdpSender extends Thread {
                 String msg = msgList.remove(0);
 
                 try {
-                    InetAddress address = InetAddress.getByName("224.2.2.2");//广播地址
+                    InetAddress address = InetAddress.getByName("192.168.4.1");//广播地址
                     sendUdpData(msg, address);
                 } catch (UnknownHostException e) {
                     e.printStackTrace();
