@@ -3,6 +3,7 @@ package com.tckj.wificonfig.fragment;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.net.wifi.ScanResult;
+import android.net.wifi.SupplicantState;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -27,6 +28,7 @@ import com.tckj.wificonfig.esptouch.IEsptouchResult;
 import com.tckj.wificonfig.esptouch.IEsptouchTask;
 import com.tckj.wificonfig.util.NetUtils;
 import com.tckj.wificonfig.util.WifiConnector;
+import com.tckj.wificonfig.wifi.interfaces.ConnectionResultListener;
 
 import java.util.List;
 
@@ -93,7 +95,8 @@ public class AirLinkFragment extends Fragment implements View.OnClickListener {
                     Toast.makeText(getContext(), "请填写ssid，pwd", Toast.LENGTH_LONG).show();
                     return;
                 }
-                espTouch(ssid, pwd);
+                wifiSwitch(ssid, pwd);
+//                espTouch(ssid, pwd);
                 // connectWifi(ssid, pwd);
                 break;
             case R.id.switch_net:
@@ -200,6 +203,7 @@ public class AirLinkFragment extends Fragment implements View.OnClickListener {
     private ProgressDialog mProgressDialog;
     private IEsptouchTask mEsptouchTask;
     private final Object mLock = new Object();
+
     private class EsptouchAsyncTask extends AsyncTask<String, Void, List<IEsptouchResult>> {
 
         // without the lock, if the user tap confirm and cancel quickly enough,
@@ -210,6 +214,7 @@ public class AirLinkFragment extends Fragment implements View.OnClickListener {
         // 3. Oops, the task should be cancelled, but it is running
         @Override
         protected void onPreExecute() {
+
             mProgressDialog = new ProgressDialog(getActivity());
             mProgressDialog
                     .setMessage("Esptouch is configuring, please wait for a moment...");
@@ -291,5 +296,40 @@ public class AirLinkFragment extends Fragment implements View.OnClickListener {
                 }
             }
         }
+    }
+
+    /***========test wifi connector and wifi switch==================***/
+    com.tckj.wificonfig.wifi.WifiConnector wifiLinker;
+
+    private void wifiSwitch(String ssid, String pwd) {
+        if (wifiLinker == null) {
+            wifiLinker = new com.tckj.wificonfig.wifi.WifiConnector(getContext(), ssid, pwd);
+            wifiLinker.registerWifiConnectionListener(new ConnectionResultListener() {
+                @Override
+                public void successfulConnect(String SSID) {
+                    Toast.makeText(getContext(), "connect to:" + SSID, Toast.LENGTH_LONG).show();
+                }
+
+                @Override
+                public void errorConnect(int codeReason) {
+                    Toast.makeText(getContext(), "errorConnect:" + codeReason, Toast.LENGTH_LONG).show();
+                }
+
+                @Override
+                public void onStateChange(SupplicantState supplicantState) {
+                    Toast.makeText(getContext(), "onStateChange:" + supplicantState.toString(), Toast.LENGTH_LONG).show();
+                }
+            });
+            wifiLinker.connectToWifi();
+        }
+
+    }
+
+    @Override
+    public void onDestroy() {
+        if (wifiLinker != null) {
+            wifiLinker.unregisterWifiConnectionListener();
+        }
+        super.onDestroy();
     }
 }

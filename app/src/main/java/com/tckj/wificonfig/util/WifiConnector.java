@@ -16,8 +16,10 @@ import java.util.List;
 public class WifiConnector {
     private static final String TAG = "wificonfig";
     private WifiManager wifiManager;
+    private Context context;
 
     public WifiConnector(Context context) {
+        this.context = context;
         wifiManager = (WifiManager) context.getApplicationContext().getSystemService(Context.WIFI_SERVICE);
     }
 
@@ -54,6 +56,15 @@ public class WifiConnector {
             }
         }
         return null;
+    }
+
+    private void removeCurrentNetwork(Context context) {
+        String ssid = NetUtils.getCurentWifiSSID(context);
+        if (TextUtils.isEmpty(ssid)) return;
+        WifiConfiguration config = isExsits(ssid);
+        if (config != null) {
+            wifiManager.removeNetwork(config.networkId);
+        }
     }
 
     /**
@@ -162,26 +173,27 @@ public class WifiConnector {
             WifiConfiguration tempConfig = isExsits(ssid);
 
             if (tempConfig != null) {
-                // wifiManager.removeNetwork(tempConfig.networkId);
-                boolean enabled = wifiManager.enableNetwork(tempConfig.networkId, true);
-                if (connectCallback != null) {
-                    connectCallback.onConnectResult(enabled);
-                }
-            } else {
-                WifiConfiguration wifiConfig = createWifiConfiguration(ssid, password, type);
-                if (wifiConfig == null) {
-                    return;
-                }
-                int netID = wifiManager.addNetwork(wifiConfig);
-                Log.d(TAG, "netID=" + netID);
-                boolean enabled = wifiManager.enableNetwork(netID, true);
-                if (connectCallback != null) {
-                    connectCallback.onConnectResult(enabled);
-                }
-                Log.d(TAG, "enableNetwork status enable=" + enabled);
-                boolean connected = wifiManager.reconnect();
-                Log.d(TAG, "enableNetwork connected=" + connected);
+                wifiManager.removeNetwork(tempConfig.networkId);
+//                boolean enabled = wifiManager.enableNetwork(tempConfig.networkId, true);
+//                if (connectCallback != null) {
+//                    connectCallback.onConnectResult(enabled);
+//                }
             }
+            WifiConfiguration wifiConfig = createWifiConfiguration(ssid, password, type);
+            if (wifiConfig == null) {
+                return;
+            }
+            int netID = wifiManager.addNetwork(wifiConfig);
+            removeCurrentNetwork(context);
+            Log.d(TAG, "netID=" + netID);
+            boolean enabled = wifiManager.enableNetwork(netID, true);
+            if (connectCallback != null) {
+                connectCallback.onConnectResult(enabled);
+            }
+            Log.d(TAG, "enableNetwork status enable=" + enabled);
+            boolean connected = wifiManager.reconnect();
+            Log.d(TAG, "enableNetwork connected=" + connected);
+
 
         }
     }
